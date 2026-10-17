@@ -1,0 +1,22 @@
+{
+  "name": "styleecraft",
+  "version": "0.1.0",
+  "description": "A reusable styling system for modern web applications",
+  "type": "module",
+  "license": "UNLICENSED",
+  "author": "Rojo Tina Radoarivelo",
+  "files": [
+    "dist",
+    "src/styles"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": [
+    "css",
+    "design-system",
+    "components",
+    "tailwind"
+  ]
+}

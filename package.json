@@ -10,13 +10,23 @@
     "src/styles"
   ],
   "scripts": {
-    "build": "tsc",
-    "test": "node --test"
+    "dev": "vite --config vite.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "css",
     "design-system",
     "components",
     "tailwind"
-  ]
+  ],
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "sass": "^1.105.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
 }

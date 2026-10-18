@@ -1,0 +1,5 @@
+
+@import "tailwindcss";
+
+/* Sources supplémentaires à analyser par Tailwind. */
+@source "../packages";
